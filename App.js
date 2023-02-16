@@ -377,9 +377,10 @@
 // for (i = 0; i < lengthOfArray; i++) {
 //     numbers.push(+prompt("Enter the numbers!!"));
 // }
-// smallestNumber = numbers[0];
-// console.log(smallestNumber)
-// console.log(numbers);
+// console.log(numbers)
+// var smallestNumber = numbers[0];
+// // console.log(smallestNumber)
+// // console.log(numbers);
 // for (i = 1; i < lengthOfArray; i++) {
 //     if (numbers[i] < smallestNumber) {
 //         smallestNumber = numbers[i];
@@ -398,3 +399,7 @@
 // for (var i = 1; i <= 20; i++) {
 // document.write(5*i+ " , ");
 // }
+var x = 10;
+var y = 5;
+x *= y;
+console.log(x);
