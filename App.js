@@ -71,7 +71,7 @@
 
 // for (var i = 0; i <= colors.length; i++){
 //   if (userColor === colors[i]) {
-//    var index = i;
+// //    var index = i;
 //    break;
 //   }
  
@@ -229,9 +229,172 @@
 // for (var loopLimit = 1; loopLimit <= lengthOfDeletedArray; loopLimit++) {
 //     alert(costumerNames.pop());
 
+
+// chapter 17 - 20
+
+
+// var students = [[],[],[]];
+// var matrix = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+
+
+// document.write(matrix[0][0], matrix[0][1], matrix[0][2], matrix[0][3]+ "<br></br>");
+
+// document.write(matrix[1][0], matrix[1][1], matrix[1][2], matrix[1][3]+ "<br></br>");
+// document.write(matrix[2][0], matrix[2][1], matrix[2][2], matrix[2][3]+ "<br></br>");
+
+
+// var num = 1;
+// for (var i = 0; i <= 9; i++) {
+//     document.write(num++)
 // }
 
-// question 15
+
+// question4
+// var tableOf = +prompt("Enter a number for multiplication table");
+// var lengthOfTable = +prompt("Enter the length of multiplication table");
+// var startOfTable = 0;
+// for (var i = 1; i <= lengthOfTable; i++) {
+//     var answer = tableOf*(++startOfTable);
+//     document.write(tableOf+" "+" x "+i + " = "  + answer +" "+ "<br>")
+// }
 
 
 
+// question 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (i = 0; i <= fruits.length; i++){
+//     document.write("Element at index at " + i + " "+ fruits[i]  + "<br></br>");
+// }
+
+// question 6
+// for (var i = 0; 1 <= 14; i++ ) {
+//     document.write(++i);
+// }
+
+
+// var limit = 15;
+// document.write("counting ");
+// for (i = 1; i <= limit; i++) {
+//     document.write(i+",")
+// }
+// document.write("<br>");
+// document.write("<br>");
+// document.write("<br>");
+// document.write("reverse counting ");
+// var limit = 15;
+// for (i = limit; i >= 1; i--) {
+//     document.write(i+",")
+// }
+// document.write("<br>");
+// document.write("<br>");
+// document.write("<br>");
+// document.write("odd series ");
+// var limit = 15;
+// for (i = 0; i <= limit; i++) {
+//     console.log(i)
+//     document.write(++i+",")
+// }
+// document.write("<br>");
+// document.write("<br>");
+// document.write("<br>");
+// document.write("Even series ");
+
+// var limit = 15;
+// for (i = 0; i <= limit; i++) {
+//     document.write(i+++",")
+// }
+
+// document.write("<br>");
+// document.write("<br>");
+// document.write("<br>");
+// document.write("series ");
+
+// var limit = 15;
+// for (i = 2; i <= limit; i++) {
+//     document.write(i+++"k,")
+// }
+
+
+// question7
+// var flag=false;
+// var listOfItems = ["cake", "apple pie", "Cookie", "chips", "patties" ];
+// // alert("Attention!! We usally have cake, apple pie, Cookie, chips, patties");
+// var userinput = prompt("What do you wanna have??", "apple pie");
+// for (var i = 0; i <= listOfItems.length; i++) {
+//     if (listOfItems[i] === userinput) {
+//         alert("cookie is available at index " + i + " in our bakery");
+//         flag=true;
+
+//     } 
+// }
+
+// if (flag === false) {
+//     alert("Not found");
+// }
+
+
+// question 8
+// method 1
+// const numbers = [5, 2, 9, 1, 7];
+// let greatestNumber = numbers[0];
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > greatestNumber) {
+//     greatestNumber = numbers[i];
+//   }
+// }
+// console.log(greatestNumber);
+
+
+// method 2
+// var numlist = [];
+// var i;
+// var flag = false;
+// var lengthOfArray = +prompt("How many number you want??", 2);
+// for (i = 0; i < lengthOfArray; i++) {
+// numlist.push(prompt("Enter number js will find the greatest number for you!!"));
+// }
+// var greatestNumber = numlist[0];
+// for (i = 1; i < numlist.length; i++) {
+//     if (numlist[i] > greatestNumber) {
+//         greatestNumber = numlist[i];
+//         flag = true;
+//     } 
+// }
+// alert("Greatest is " + greatestNumber);
+// if(greatestNumber === ""){
+//     alert("you didn't enter any number")
+//     flag = false;
+// }
+
+
+// question9
+
+// var numbers = [];
+// var i;
+// var flag = false;
+// var lengthOfArray = +prompt("How many numbers you want to enter ??", 3);
+// for (i = 0; i < lengthOfArray; i++) {
+//     numbers.push(+prompt("Enter the numbers!!"));
+// }
+// smallestNumber = numbers[0];
+// console.log(smallestNumber)
+// console.log(numbers);
+// for (i = 1; i < lengthOfArray; i++) {
+//     if (numbers[i] < smallestNumber) {
+//         smallestNumber = numbers[i];
+//         flag = true;
+//     }
+// }
+// alert(smallestNumber)
+// if (smallestNumber === 0) {
+//     alert("zero equals to zero");
+//     flag = false;
+// }
+
+
+// question 10
+
+// for (var i = 1; i <= 20; i++) {
+// document.write(5*i+ " , ");
+// }
